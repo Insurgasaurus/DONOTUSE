@@ -6,7 +6,7 @@ from urlparse import urljoin
 
 
 pwdmgr = urllib2.HTTPPasswordMgrWithDefaultRealm()
-pwdmgr.add_password("New mail feed", 'http://mail.google.com/', "insurgasaurus", "5tqh470ben")
+pwdmgr.add_password("New mail feed", 'http://mail.google.com/', "insurgasaurus", "****")
 auth = urllib2.HTTPBasicAuthHandler(pwdmgr)
 opener = urllib2.build_opener(auth)
 
